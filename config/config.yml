@@ -1,0 +1,7 @@
+homedir: /var/lib/friday
+
+log:
+  file: /var/log/friday.log
+  # Available levels [debug, info, error, warning]
+  level: info
+

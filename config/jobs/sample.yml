@@ -1,0 +1,14 @@
+job:
+  name: "sample"
+
+steps:
+  - name: "first build"
+    command: "/build/test/run.sh"
+
+artifacts:
+  - workspace: "/build/test"
+    files: "*.log, *.iso"
+
+schedule:
+   time: "0 57 14 * * * *"
+
