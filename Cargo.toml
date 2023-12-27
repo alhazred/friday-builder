@@ -1,5 +1,5 @@
 [package]
-name = "friday"
+name = "friday-builder"
 version = "1.0.0"
 edition = "2021"
 authors = ["Alexander Eremin <alexander.r.eremin@gmail.com>"]
@@ -8,7 +8,7 @@ homepage = "https://github.com/alhazred/friday"
 repository = "https://github.com/alhazred/friday"
 readme = "README.md"
 license = "GPL-3.0"
-keywords = ["jenkins", "crontab", "ci"]
+keywords = ["jenkins", "crontab", "ci", "build"]
 
 [dependencies]
 yaml-rust = "0.4"
