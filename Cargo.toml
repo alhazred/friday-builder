@@ -7,6 +7,7 @@ description = "Simple console analog of jenkins, written in Rust"
 homepage = "https://github.com/alhazred/friday"
 repository = "https://github.com/alhazred/friday"
 readme = "README.md"
+license = "GPL-3.0"
 keywords = ["jenkins", "crontab", "ci"]
 
 [dependencies]
